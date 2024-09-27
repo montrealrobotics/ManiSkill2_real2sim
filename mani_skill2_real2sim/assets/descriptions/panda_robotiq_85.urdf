@@ -19,26 +19,26 @@
   <link name="panda_link0">
     <visual>
       <geometry>
-        <mesh filename="meshes/visual/link0.dae"/>
+        <mesh filename="franka_description/meshes/visual/link0.dae"/>
       </geometry>
       <material name="panda_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/collision/link0.stl"/>
+        <mesh filename="franka_description/meshes/collision/link0.stl"/>
       </geometry>
     </collision>
   </link>
   <link name="panda_link1">
     <visual>
       <geometry>
-        <mesh filename="meshes/visual/link1.dae"/>
+        <mesh filename="franka_description/meshes/visual/link1.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/collision/link1.stl"/>
+        <mesh filename="franka_description/meshes/collision/link1.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -59,13 +59,13 @@
   <link name="panda_link2">
     <visual>
       <geometry>
-        <mesh filename="meshes/visual/link2.dae"/>
+        <mesh filename="franka_description/meshes/visual/link2.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/collision/link2.stl"/>
+        <mesh filename="franka_description/meshes/collision/link2.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -86,13 +86,13 @@
   <link name="panda_link3">
     <visual>
       <geometry>
-        <mesh filename="meshes/visual/link3.dae"/>
+        <mesh filename="franka_description/meshes/visual/link3.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/collision/link3.stl"/>
+        <mesh filename="franka_description/meshes/collision/link3.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -113,13 +113,13 @@
   <link name="panda_link4">
     <visual>
       <geometry>
-        <mesh filename="meshes/visual/link4.dae"/>
+        <mesh filename="franka_description/meshes/visual/link4.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/collision/link4.stl"/>
+        <mesh filename="franka_description/meshes/collision/link4.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -140,13 +140,13 @@
   <link name="panda_link5">
     <visual>
       <geometry>
-        <mesh filename="meshes/visual/link5.dae"/>
+        <mesh filename="franka_description/meshes/visual/link5.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/collision/link5.stl"/>
+        <mesh filename="franka_description/meshes/collision/link5.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -167,13 +167,13 @@
   <link name="panda_link6">
     <visual>
       <geometry>
-        <mesh filename="meshes/visual/link6.dae"/>
+        <mesh filename="franka_description/meshes/visual/link6.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/collision/link6.stl"/>
+        <mesh filename="franka_description/meshes/collision/link6.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -194,13 +194,13 @@
   <link name="panda_link7">
     <visual>
       <geometry>
-        <mesh filename="meshes/visual/link7.dae"/>
+        <mesh filename="franka_description/meshes/visual/link7.dae"/>
       </geometry>
       <material name="panda_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/collision/link7.stl"/>
+        <mesh filename="franka_description/meshes/collision/link7.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -264,13 +264,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/base.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/base.obj" scale="0.1 0.1 0.1"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/collision/base.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="robotiq-2f/meshes/collision/base.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -290,13 +290,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/driver.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/driver.obj" scale="0.1 0.1 0.1"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/collision/driver.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="robotiq-2f/meshes/collision/driver.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -313,13 +313,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/coupler.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/coupler.obj" scale="0.1 0.1 0.1"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/collision/coupler.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="robotiq-2f/meshes/collision/coupler.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -334,13 +334,13 @@
   <link name="robotiq_2f_85_right_follower">
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/follower.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/follower.obj" scale="0.1 0.1 0.1"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/collision/follower.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="robotiq-2f/meshes/collision/follower.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -361,13 +361,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/pad.stl" scale="0.0001 0.0001 0.0001"/>
+        <mesh filename="robotiq-2f/meshes/visual/pad.stl" scale="0.0001 0.0001 0.0001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/collision/pad.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="robotiq-2f/meshes/collision/pad.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -387,13 +387,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/spring_link.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/spring_link.obj" scale="0.1 0.1 0.1"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/collision/spring_link.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="robotiq-2f/meshes/collision/spring_link.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -414,13 +414,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/driver.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/driver.obj" scale="0.1 0.1 0.1"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/collision/driver.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="robotiq-2f/meshes/collision/driver.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -437,13 +437,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/coupler.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/coupler.obj" scale="0.1 0.1 0.1"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/collision/coupler.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="robotiq-2f/meshes/collision/coupler.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -458,13 +458,13 @@
   <link name="robotiq_2f_85_left_follower">
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/follower.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/follower.obj" scale="0.1 0.1 0.1"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <!-- <collision>
         <geometry>
-            <mesh filename="meshes/robotiq-2f/collision/follower.stl" scale="0.001 0.001 0.001"/>
+            <mesh filename="robotiq-2f/meshes/collision/follower.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         </collision> -->
     <inertial>
@@ -485,13 +485,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/pad.stl" scale="0.0001 0.0001 0.0001"/>
+        <mesh filename="robotiq-2f/meshes/visual/pad.stl" scale="0.0001 0.0001 0.0001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/collision/pad.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="robotiq-2f/meshes/collision/pad.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -511,13 +511,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="meshes/robotiq-2f/visual/spring_link.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/spring_link.obj" scale="0.1 0.1 0.1"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
     <!-- <collision>
         <geometry>
-            <mesh filename="meshes/robotiq-2f/collision/spring_link.stl" scale="0.001 0.001 0.001"/>
+            <mesh filename="robotiq-2f/meshes/collision/spring_link.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         </collision> -->
   </link>
