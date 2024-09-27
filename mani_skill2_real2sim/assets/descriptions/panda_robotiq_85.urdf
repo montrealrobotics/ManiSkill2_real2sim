@@ -264,7 +264,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/base.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/base.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
@@ -290,7 +290,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/driver.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/driver.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
@@ -313,7 +313,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/coupler.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/coupler.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
@@ -334,7 +334,7 @@
   <link name="robotiq_2f_85_right_follower">
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/follower.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/follower.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
@@ -361,7 +361,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/pad.stl" scale="0.0001 0.0001 0.0001"/>
+        <mesh filename="robotiq-2f/meshes/visual/pad.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
@@ -387,7 +387,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/spring_link.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/spring_link.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
@@ -414,7 +414,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/driver.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/driver.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
@@ -437,7 +437,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/coupler.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/coupler.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
@@ -458,7 +458,7 @@
   <link name="robotiq_2f_85_left_follower">
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/follower.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/follower.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
@@ -485,7 +485,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/pad.stl" scale="0.0001 0.0001 0.0001"/>
+        <mesh filename="robotiq-2f/meshes/visual/pad.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
@@ -511,7 +511,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="robotiq-2f/meshes/visual/spring_link.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="robotiq-2f/meshes/visual/spring_link.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="Blanc"/>
     </visual>
